@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Contact</title>
+</head>
+<body>
+    <nav> 
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">My Work</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <article class="formulier">
+
+            <h1>contact maken</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, error architecto omnis amet dolorem numquam sed laborum ex repellat veritatis!</p>
+
+            <form class="form" id="form" name="form" method="POST" action="./main.js">
+                    <label for="user-name">Uw naam invoeren: </label>
+                    <input type="text" id="name" name="name" placeholder="naam" pattern="{a-zA-Z}">
+                    <br>
+             
+                    <label for="user-mail">Uw mail invoeren: </label>
+                    <input type="text" id="mail" name="mail" placeholder="mail" pattern="{a-zA-Z0-9}.+">
+                    <br>
+                   
+             
+                    <label for="user-sub">Subject: </label>
+                    <input type="text" id="subject" name="Subject" placeholder="Onderwerp" pattern="{a-zA-Z0-9}.+">
+                    <br>
+              
+                    <textarea name="message" cols="30" rows="7" id="message" placeholder="uw bericht"></textarea>
+                    <br> 
+            </form>
+            <button type="submit" name="submit" id="submit">Verzenden</button>
+                <div id="natij"></div>
+            <span class="result"></span>
+    </article>
+
+
+    <footer>
+        Alle rechten voorbehouden door &copy;2019 HooNL
+    </footer>
+    
+</body>
+</html>
+
